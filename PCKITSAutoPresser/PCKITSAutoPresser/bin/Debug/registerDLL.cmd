@@ -1,0 +1,2 @@
+regsvr32 /s "C:\Users\ASUS\Desktop\FINISHED PROJECTS\PCKITSAutoPresser\PCKITSAutoPresser\bin\Debug\tools\AutoItX3.DLL"
+regsvr32 /s "C:\Users\ASUS\Desktop\FINISHED PROJECTS\PCKITSAutoPresser\PCKITSAutoPresser\bin\Debug\tools\AutoItX3_x64.DLL"

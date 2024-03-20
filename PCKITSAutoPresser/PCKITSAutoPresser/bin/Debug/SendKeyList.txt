@@ -1,0 +1,99 @@
+For example, open Folder Options (in the control panel) and try the following:
+
+
+Send("{TAB}")	Navigate to next control (button, checkbox, etc)
+Send("+{TAB}")	Navigate to previous control.
+Send("^{TAB}")	Navigate to next WindowTab (on a Tabbed dialog window)
+Send("^+{TAB}")	Navigate to previous WindowTab.
+Send("{SPACE}")	Can be used to toggle a checkbox or click a button.
+Send("{+}")	Usually checks a checkbox (if it's a "real" checkbox.)
+Send("{-}")	Usually unchecks a checkbox.
+Send("{NumPadMult}")	Recursively expands folders in a SysTreeView32.
+
+
+Use Alt-key combos to access menu items. Also, open Notepad and try the following:
+
+Send("!f")	Send Alt+f, the access key for Notepad's file menu. Try other letters!
+Send("{DOWN}")	Move down a menu.
+Send("{UP}")	Move up a menu.
+Send("{LEFT}")	Move leftward to new menu or expand a submenu.
+Send("{RIGHT}")	Move rightward to new menu or collapse a submenu.
+
+
+See Windows' Help--press Win+F1--for a complete list of keyboard shortcuts if you don't know the importance of Alt+F4, PrintScreen, Ctrl+C, and so on.
+
+
+Send Command (if zero flag)	Resulting Keypress
+{!}	!
+{#}	#
+{+}	+
+{^}	^
+{{}	{
+{}}	}
+{SPACE}	SPACE
+{ENTER}	ENTER key on the main keyboard
+{ALT}	ALT
+{BACKSPACE} or {BS}	BACKSPACE
+{DELETE} or {DEL}	DELETE
+{UP}	Up arrow
+{DOWN}	Down arrow
+{LEFT}	Left arrow
+{RIGHT}	Right arrow
+{HOME}	HOME
+{END}	END
+{ESCAPE} or {ESC}	ESCAPE
+{INSERT} or {INS}	INS
+{PGUP}	PGUP
+{PGDN}	PGDN
+{F1} - {F12}	Function keys
+{TAB}	TAB
+{PRINTSCREEN}	PRINTSCR
+{LWIN}	Left Windows key
+{RWIN}	Right Windows key
+{NUMLOCK}	NUMLOCK
+{CAPSLOCK}	CAPSLOCK
+{SCROLLLOCK}	SCROLLLOCK
+{BREAK}	for Ctrl+Break processing
+{PAUSE}	PAUSE
+{NUMPAD0} - {NUMPAD9}	Numpad digits
+{NUMPADMULT}	Numpad Multiply
+{NUMPADADD}	Numpad Add
+{NUMPADSUB}	Numpad Subtract
+{NUMPADDIV}	Numpad Divide
+{NUMPADDOT}	Numpad period
+{NUMPADENTER}	Enter key on the numpad
+{APPSKEY}	Windows App key
+{LALT}	Left ALT key
+{RALT}	Right ALT key
+{LCTRL}	Left CTRL key
+{RCTRL}	Right CTRL key
+{LSHIFT}	Left Shift key
+{RSHIFT}	Right Shift key
+{SLEEP}	Computer SLEEP key
+{ALTDOWN}	Holds the ALT key down until {ALTUP} is sent
+{SHIFTDOWN}	Holds the SHIFT key down until {SHIFTUP} is sent
+{CTRLDOWN}	Holds the CTRL key down until {CTRLUP} is sent
+{LWINDOWN}	Holds the left Windows key down until {LWINUP} is sent
+{RWINDOWN}	Holds the right Windows key down until {RWINUP} is sent
+{ASC nnnn}	Send the ALT+nnnn key combination
+ 	 
+{BROWSER_BACK}	Select the browser "back" button
+{BROWSER_FORWARD}	Select the browser "forward" button
+{BROWSER_REFRESH}	Select the browser "refresh" button
+{BROWSER_STOP}	Select the browser "stop" button
+{BROWSER_SEARCH}	Select the browser "search" button
+{BROWSER_FAVORITES}	Select the browser "favorites" button
+{BROWSER_HOME}	Launch the browser and go to the home page
+{VOLUME_MUTE}	Mute the volume
+{VOLUME_DOWN}	Reduce the volume
+{VOLUME_UP}	Increase the volume
+{MEDIA_NEXT}	Select next track in media player
+{MEDIA_PREV}	Select previous track in media player
+{MEDIA_STOP}	Stop media player
+{MEDIA_PLAY_PAUSE}	Play/pause media player
+{LAUNCH_MAIL}	Launch the email application
+{LAUNCH_MEDIA}	Launch media player
+{LAUNCH_APP1}	Launch user app1
+{LAUNCH_APP2}	Launch user app2
+{OEM_102}	Either the angle bracket key or the backslash key on the RT 102-key keyboard
+to be used at least for Hungarian keyboard for "�" or "�"
